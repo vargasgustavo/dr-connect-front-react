@@ -301,3 +301,37 @@ a{
     }
 
 }
+
+@media only screen and (max-width: 350px) {
+    .right-header-body > img{
+        width: 85%;
+    }
+        
+    .textfield > input::placeholder{
+        font-size: 1.5vw;
+    }
+
+    .card-button > button{
+        letter-spacing: 2px;
+        font-size: 1.2vw;
+    }
+
+    .first-image > img, .second-image > img, .thirty-image > img{
+        width: 16vw;
+        height: 20vh;
+    }
+
+    .first-image > span {
+        padding-right: 8%;
+        font-size: 1.3vw;
+    }
+
+    .second-image > span {
+        font-size: 1.3vw;
+    }
+
+    .thirty-image > span {
+        font-size: 1.3vw;
+        padding-left: 8%;
+    }
+}

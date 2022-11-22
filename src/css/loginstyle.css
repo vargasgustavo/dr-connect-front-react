@@ -38,7 +38,7 @@ body * {
 
 .right-login{
     width: 50vw !important;
-    height: 60vh !important;
+    height: 100vh !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -46,7 +46,7 @@ body * {
 
 .card-login{
     width: 50% !important;
-    height: 50%;
+    height: 60vh;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -236,13 +236,21 @@ body * {
     .textfield input::placeholder {
         font-size: 0.9rem !important;
     }
+    
+    .textfield input[type="radio"] {
+        width: 10px;
+    }
 }
 
 @media only screen and (max-width: 350px){
-    .title > img{
-        height: 40% !important;
-        width: 50% !important;
-
+    .title img{
+        height: 5vh;
+        width: 10vw;
+    }
+    
+    .title-image {
+        width: 100px;
+        height: 50px;
     }
 
     .title > h1{
@@ -251,5 +259,9 @@ body * {
 
     .textfield input::placeholder {
         font-size: 0.8rem !important;
+    }
+    
+    .card-login {
+        height: 50vh;
     }
 }
