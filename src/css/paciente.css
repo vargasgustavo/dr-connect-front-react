@@ -9,7 +9,7 @@ body * {
     box-sizing: border-box;
 }
 
-.main-login {
+.main-login-pro {
     width: 100vw;
     height: 100vh;
     background: #E5E5E5;
@@ -18,7 +18,7 @@ body * {
     align-items: center;
 }
 
-.left-login {
+.left-login-pro {
     width: 50vw;
     height: 50vh;
     display: flex;
@@ -27,16 +27,16 @@ body * {
     flex-direction: column;
 }
 
-.left-login>h1 {
+.left-login-pro>h1 {
     font-size: 3vw;
     color: #11B9C4;
 }
 
-.left-login-image {
+.left-login-image-pro {
     width: 35vw;
 }
 
-.right-login {
+.right-login-pro {
     width: 50vw;
     height: 50vh;
     display: flex;
@@ -44,7 +44,7 @@ body * {
     align-items: center;
 }
 
-.card-login-patient {
+.card-login-patient-pro {
     display: grid !important;
     column-gap: 10px !important;
     row-gap: 10px !important;
@@ -58,30 +58,30 @@ body * {
     box-shadow: 0px 10px 40px #00000056 !important;
 }
 
-.title {
+.title-pro {
     width: 100%;
     display: flex;
     justify-content: center;
 
 }
 
-.title-a>a {
+.title-a-pro>a {
     color: #747474;
 }
 
-.title>h1 {
+.title-pro>h1 {
     text-transform: uppercase;
     color: #11B9C4;
     font-weight: 800;
     margin: 0;
 }
 
-.title>img {
+.title-pro>img {
     margin-right: 5px;
     height: 4vh;
 }
 
-.textfield {
+.textfield-pro {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -90,7 +90,7 @@ body * {
     width: 100%;
 }
 
-.textfield>input {
+.textfield-pro>input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -103,25 +103,25 @@ body * {
     box-sizing: border-box;
 }
 
-.textfield>input:hover {
+.textfield-pro>input:hover {
     box-shadow: 0px 10px 40px #00000056;
 }
 
-.textfield>label {
+.textfield-pro>label {
     color: #747474;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
-.textfield>input::placeholder {
+.textfield-pro>input::placeholder {
     color: #11B9C4;
 }
 
-.textfield>p {
+.textfield-pro>p {
     font-size: 14px;
 }
 
-.btn-login {
+.btn-login-pro {
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -137,63 +137,63 @@ body * {
     box-shadow: 0px 10px 40px -12px #067981c4;
 }
 
-.trasitionButton {
+.trasitionButton-pro {
     transition: transform 1s;
 }
 
-.trasitionButton:hover {
+.trasitionButton-pro:hover {
     transform: scale(1.1);
 }
 
 @media only screen and (max-width: 950px) {
-    .card-login {
+    .card-login-pro {
         width: 85%;
     }
 
-    .card-login>h1 {
+    .card-login-pro>h1 {
         font-weight: 800;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .main-login {
+    .main-login-pro {
         display: flex;
         flex-direction: column;
     }
 
-    .left-login>h1 {
+    .left-login-pro>h1 {
         display: none;
     }
 
-    .left-login {
+    .left-login-pro {
         width: 100%;
         height: auto;
     }
 
-    .right-login {
+    .right-login-pro {
         width: 100%;
         height: auto;
     }
 
-    .left-login-image {
+    .left-login-image-pro {
         width: 50vw;
     }
 
-    .card-login {
+    .card-login-pro {
         width: 90%;
     }
 
-    .title>h1 {
+    .title-pro>h1 {
         font-weight: 800;
     }
 
-    .title {
+    .title-pro {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .title>img {
+    .title-pro>img {
         height: 4vh;
         width: 5vw;
 
@@ -202,13 +202,13 @@ body * {
 }
 
 @media only screen and (max-width: 350px) {
-    .title>img {
+    .title-pro>img {
         height: 4vh;
         width: 7vw;
 
     }
 
-    .title>h1 {
+    .title-pro>h1 {
         font-size: 1.4rem;
     }
 

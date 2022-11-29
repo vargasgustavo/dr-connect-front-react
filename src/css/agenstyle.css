@@ -9,54 +9,6 @@ body * {
     box-sizing: border-box;
 }
 
-.header{
-    width: 100%;
-    height: 25%;
-    display: flex;
-}
-
-.logo{
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo > img {
-    cursor: pointer;
-    width: 40%;
-}
-
-.menu{
-    padding-left: 10%;
-    width: 70%;
-}
-
-.menu li {
-    margin: 10px;
-    list-style: none;
-    display: inline-flex;
-    font-size: 1.5vw;
-    font-weight: 800;
-    cursor: pointer;
-}
-.menu ul li a::after {
-    content: '';
-    margin-left: 7px;
-    display: flex;
-    bottom: 1rem;
-    left: 50%;
-    width: 0;
-    height: 0.2rem;
-    background: #11B9C4;
-    transition: all 300ms ease-in-out;
-}
-
-.menu ul li a:hover::after {
-    width: 80%;
-    left: 25%;
-}
-
 .body{
     margin-top: 6%;
     width: 100%;
